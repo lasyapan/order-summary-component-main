@@ -1,0 +1,158 @@
+/*
+- Pale blue: hsl(225, 100%, 94%)
+- Bright blue: hsl(245, 75%, 52%)
+- Very pale blue: hsl(225, 100%, 98%)
+- Desaturated blue: hsl(224, 23%, 55%)
+- Dark blue: hsl(223, 47%, 23%)
+- Font size (paragraph): 16px
+- Family: [Red Hat Display](https://fonts.google.com/specimen/Red+Hat+Display)
+- Weights: 500, 700, 900
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+body{
+  background-image: url("images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
+  background-position: 0rem -8rem;
+  font-family: 'Red Hat Display';
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 2.5%;
+      background-size: 100%;
+  font-size: 10px;
+}
+
+main{
+  font-size: 1rem;
+  width: 325px;
+  height: 500px;
+  background-color: white;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 28px 25px -25px hsl(224, 23%, 55%);
+  border-radius: 1rem;
+  position:absolute;
+}
+
+
+
+main #hero{
+  border-radius: 1rem 1rem 0 0;
+}
+
+main h1{
+  text-align: center;
+  padding-top: 4%;
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+
+main #para{
+  text-align: center;
+  font-weight: lighter;
+  color: hsl(224, 23%, 55%);
+  margin: 0;
+  font-size: 0.88rem;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+main .plan{
+  display: flex;
+  flex-direction: row;
+  margin-top: 4%;
+  margin-left: 9%;
+  margin-right: 9%;
+  margin-bottom: 4%;
+  padding-top: 1.5%;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-bottom: 1.5%;
+  background-color:  hsl(225, 100%, 98%);
+  border-radius: 1rem;
+  font-size: 0.88rem;
+}
+
+main .plan img{
+  align-self: center;
+  flex-basis: 3.3%;
+  justify-content: center;
+  padding-right: 3%;
+  height: 55%;
+  margin-right: 3%;
+}
+
+main .plan .annualplan{
+  align-self: flex-start;
+  justify-content: flex-start;
+  flex-basis: 60%;
+  text-align: left;
+  line-height: 10%;
+  padding-bottom: 3%;
+}
+
+main .plan a{
+  align-self: center;
+  text-align: left;
+  flex-basis: 36.7%;
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+  font-size: 0.8rem;
+  text-align: right;
+  padding-right: 3%;
+}
+
+main .plan .annualplan p{
+  color: hsl(224, 23%, 55%);
+  font-size: 0.85rem;
+}
+
+main .plan .annualplan h4{
+  font-weight: 900;
+  font-size: 0.85rem;
+  color: hsl(223, 47%, 23%);
+}
+
+main .plan a:hover{
+  color: hsl(245, 75%, 65%);
+  text-decoration: none;
+  font-size: 0.85rem;
+}
+
+main .payment{
+  cursor: pointer;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  font-weight: 700;
+  border: none;
+  padding: 3.5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 0.5rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.025rem;
+  box-shadow: 0px 17px 7px -6px hsl(235, 80%, 89%);
+}
+
+main .payment:hover{
+  background-color: hsl(225, 80%, 64%);
+}
+
+main .cancel{
+  text-align: center;
+  font-size: 0.8rem;
+  margin-top: 7%;
+  text-decoration: none;
+  font-weight: 900;
+  color: hsl(224, 23%, 55%);
+}
+
+main .cancel:hover{
+  color: hsl(223, 47%, 23%);
+  text-decoration: none;
+}
